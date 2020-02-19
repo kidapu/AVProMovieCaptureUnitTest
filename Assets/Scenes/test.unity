@@ -746,11 +746,12 @@ MonoBehaviour:
   _postCaptureSettings:
     writeFastStartStreamingForMp4: 1
   _captureKey: 0
-  _captureOnStart: 0
-  _startPaused: 0
   _listVideoCodecsOnStart: 0
   _isRealTime: 1
   _persistAcrossSceneLoads: 0
+  _startTrigger: 0
+  _startDelay: 0
+  _startDelaySeconds: 0
   _stopMode: 0
   _stopFrames: 0
   _stopSeconds: 0
@@ -795,9 +796,11 @@ MonoBehaviour:
   _motionBlurCameras: []
   _allowVSyncDisable: 1
   _supportTextureRecreate: 0
+  _timelineController: {fileID: 0}
   _captureMouseCursor: 0
   _mouseCursor: {fileID: 0}
   _minimumDiskSpaceMB: -1
+  _cameraSelector: {fileID: 0}
   _lastCamera: {fileID: 963194227}
   _contribCameras: []
   _useContributingCameras: 1
@@ -946,7 +949,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u9332\u753B\u30C6\u30B9\u30C8"
+  m_Text: Start Rec
 --- !u!222 &2031908559
 CanvasRenderer:
   m_ObjectHideFlags: 0
