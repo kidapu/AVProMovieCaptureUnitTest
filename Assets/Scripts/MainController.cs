@@ -21,13 +21,13 @@ public class MainController : MonoBehaviour
 	{
 		_startRecButton.onClick.AddListener(() =>
 		{
-			Debug.LogFormat("Click 録画ボタン => isRecording : {0}", _isRecording);
+			Debug.LogFormat("Click => isRecording : {0}", _isRecording);
 
 			if (!_isRecording)
 			{
 				_cap.StartCapture();
 				_isRecording = true;
-				_statusText.text = "録画中";
+				_statusText.text = "Now Rec";
 			}
 			else
 			{
